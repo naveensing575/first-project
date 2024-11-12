@@ -18,6 +18,8 @@ export class LoginComponent {
   }
 
   login() {
-    alert(`${this.userName} user has successfully logged in!`);
+    alert(`${this.userName} has successfully logged in!`);
+    this.userName = '';
+    this.password = '';
   }
 }
